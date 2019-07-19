@@ -40,6 +40,10 @@ a:hover {
     padding: 0 15px;
 }
 
+.content .contact-p {
+    text-align: center;
+}
+
 /* Home */
 
 .home {
@@ -124,7 +128,6 @@ a:hover {
     padding-left: 50px;
     padding-right: 50px;
     margin: 0 auto;
-    width: 300px;
 }
 
 .projects-column {
@@ -145,7 +148,7 @@ a:hover {
     border-radius: 2px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 420px) {
     .projects-column {
         width: 45%;
         float: right;
@@ -159,10 +162,4 @@ a:hover {
         padding-left: 300px;
         padding-right: 300px;
     }
-}
-
-/* Contact */
-
-.content .contact-p {
-    text-align: center;
 }
