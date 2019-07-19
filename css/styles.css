@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: sans-serif;
     overflow-x: hidden;
     color: #313135;
 }
@@ -19,8 +19,9 @@ h2 {
 h3 {
     font-size: 1.2em;
     font-weight: 400;
+    padding-top: 4px;
+    padding-bottom: 4px;
     text-align: left;
-    padding-bottom: 8px;
 }
 
 a {    
@@ -73,7 +74,7 @@ a:hover {
 .home p {
     font-size: 1.4em;
     text-align: center;
-} 
+}
 
 /* Section with white background */
 
@@ -120,17 +121,17 @@ a:hover {
 
 .projects .content {
     padding-top: 50px;
-    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
     margin: 0 auto;
+    width: 300px;
 }
 
 .projects-column {
-    width: 45%;
-    float: left;
+    width: 100%;
+    text-align: left;
     margin-right: 5%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .techtag {
@@ -143,6 +144,15 @@ a:hover {
     border: 1px dotted #313135;
     border-radius: 2px;
 }
+
+@media (min-width: 768px) {
+    .projects-column {
+        width: 45%;
+        float: right;
+    }
+    .projects .content {
+        width: 300px;
+    }
 
 @media (min-width: 950px) {
     .projects .content {
