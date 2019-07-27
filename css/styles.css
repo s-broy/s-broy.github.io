@@ -1,165 +1,173 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    font-family: sans-serif;
-    overflow-x: hidden;
-    color: #313135;
+	font-family: sans-serif;
+	overflow-x: hidden;
+	color: #313135;
 }
 
 h2 {
-    font-size: 1.4em;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 20px;
+	font-size: 1.4em;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 1.2em;
-    font-weight: 400;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    text-align: left;
+	font-size: 1.2em;
+	font-weight: 400;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: left;
 }
 
-a {    
-    text-decoration: none;
-    color: #025ebf;
-    transition: all 0.1s ease-out;
+a {
+	text-decoration: none;
+	color: #025ebf;
+	transition: all 0.1s ease-out;
 }
 
 a:hover {
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
 .icon {
-    width: 40px;
-    height: 40px;
-    padding: 0 15px;
+	width: 40px;
+	height: 40px;
+	padding: 0 15px;
 }
 
 .content .contact-p {
-    text-align: center;
+	text-align: center;
 }
 
 /* Home */
 
 .home {
-    min-height: 100vh;
-    background: #f1f4f6;
-    width: 100%;
+	min-height: 100vh;
+	background: #f1f4f6;
+	width: 100%;
 }
 
 .home .home-content {
-    overflow-y: visible;
-    padding-top: 13%;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0 auto;
+	overflow-y: visible;
+	padding-top: 13%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0 auto;
 }
 
 .home-content img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin: auto;
-    border: 1px solid #313135;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: auto;
+	border: 1px solid #313135;
 }
 
 .home h1 {
-    font-size: 2.5em;
-    text-align: center;
-    margin: 20px 0;
+	font-size: 2.5em;
+	text-align: center;
+	margin: 20px 0;
 }
 
 .home p {
-    font-size: 1.4em;
-    text-align: center;
+	font-size: 1.4em;
+	text-align: center;
 }
 
 /* Section with white background */
 
 .section-white {
-    display: block;
-    background: #fff;
-    width: 100%;
+	display: block;
+	background: #fff;
+	width: 100%;
 }
 
 .section-white .content {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0 auto;
 }
 
 .content p {
-    font-size: 1.2em;
-    text-align: left;
-    font-weight: 300;
-    line-height: 1.6;
+	font-size: 1.2em;
+	text-align: left;
+	font-weight: 300;
+	line-height: 1.6;
 }
 
 .content p span {
-    color: #025ebf;
+	color: #025ebf;
 }
 
 @media (min-width: 950px) {
-    .section-white .content {
-        padding-left: 300px;
-        padding-right: 300px;
-    }
+	.section-white .content {
+		padding-left: 300px;
+		padding-right: 300px;
+	}
 }
 
 /* Projects */
 
+.image-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-gap: 10px;
+	grid-auto-rows: 150px;
+}
+
+.image-list img {
+	width: 250px;
+}
+
 .projects {
-    display: block;
-    overflow: auto;
-    background: #f1f4f6;
-    width: 100%;
+	display: block;
+	overflow: auto;
+	background: #f1f4f6;
+	width: 100%;
 }
 
 .projects .content {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 0 auto;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0 auto;
 }
 
 .projects-column {
-    width: 100%;
-    text-align: left;
-    margin-right: 5%;
-    margin-bottom: 50px;
+	width: 100%;
+	text-align: left;
+	margin-right: 5%;
+	margin-bottom: 50px;
 }
 
 .techtag {
-    display: inline-block;
-    text-align: center;
-    font-size: 0.7em;
-    font-weight: 400;
-    padding: 5px 5px;
-    margin: 5px 5px 0 0;
-    border: 1px dotted #313135;
-    border-radius: 2px;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.7em;
+	font-weight: 400;
+	padding: 5px 5px;
+	margin: 5px 5px 0 0;
+	border: 1px dotted #313135;
+	border-radius: 2px;
 }
 
 @media (min-width: 420px) {
-    .projects-column {
-        width: 45%;
-        float: right;
-    }
-    .projects .content {
-        width: 300px;
-    }
+	.projects .content {
+		width: 300px;
+	}
+}
 
 @media (min-width: 950px) {
-    .projects .content {
-        padding-left: 300px;
-        padding-right: 300px;
-    }
+	.projects .content {
+		padding-left: 300px;
+		padding-right: 300px;
+	}
 }
