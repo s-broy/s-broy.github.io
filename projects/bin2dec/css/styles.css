@@ -1,8 +1,9 @@
 .container {
 	margin: 0 auto;
-	width: 400px;
+	width: 390px;
 }
 
+h1,
 form {
 	text-align: center;
 }
