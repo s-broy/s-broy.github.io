@@ -1,0 +1,239 @@
+body {
+	background: rgb(229, 238, 252);
+	background: linear-gradient(180deg, rgba(229, 238, 252, 1) 60%, rgba(255, 255, 255, 1) 100%) no-repeat;
+}
+
+/* .navbar {
+	background: #e5eefc;
+} */
+
+.fa-bars {
+	color: #444555;
+}
+
+.top-banner {
+	background: #fff;
+}
+
+.call-us {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 400;
+	font-size: 0.75em;
+	letter-spacing: 0.07rem;
+	color: #444555;
+}
+
+.login {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 400;
+	font-size: 0.75em;
+	letter-spacing: 0.1rem;
+	color: #5049f1;
+}
+
+a.login:hover {
+	text-decoration: none;
+	color: #5049f1;
+}
+
+.signup {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 400;
+	font-size: 0.75em;
+	letter-spacing: 0.1rem;
+	color: #fff;
+	background: #5049f1;
+	border-radius: 4px;
+	padding: 10px 8px 7px 10px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+a.signup:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+a.navbar-brand {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 700;
+	font-size: 1.7em;
+	letter-spacing: 0.1rem;
+	color: #444555;
+}
+
+a.navbar-brand:hover {
+	color: #444555;
+}
+
+.top-banner-content {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 700;
+	font-size: 1.3em;
+	letter-spacing: 0.05rem;
+}
+
+.myriad-pro-500 {
+	font-family: myriad-pro, sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.1rem;
+}
+
+a.bebas-font-700 {
+	font-family: bebas-neue-by-fontfabric, sans-serif;
+	font-weight: 700;
+	font-size: 1.6em;
+	letter-spacing: 0.1rem;
+}
+
+.hero {
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+
+	background-image: url(/images/tunnel.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.hero h1 {
+	color: #fff;
+	font-size: 3.0em;
+	margin-top: 0;
+	margin-bottom: 0.2em;
+}
+
+.hero .cta {
+	display: block;
+	width: 190px;
+
+	padding: 0.4em;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+
+	border: 2px solid #fff;
+	border-radius: 20px;
+
+	background-color: rgba(80, 73, 241, 0.8);
+}
+
+.breadcrumb-non-bs {
+	font-family: ubuntu, sans-serif;
+	font-weight: 400;
+	font-size: 0.9em;
+	letter-spacing: 0.05rem;
+	color: #3527c5;
+	background: #fff;
+}
+
+.breadcrumb-current {
+	font-family: ubuntu, sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+	color: #3527c5;
+}
+
+.nav-link,
+a.nav-link,
+.dropdown-item {
+	color: #444555;
+	letter-spacing: 0.01rem;
+}
+
+.nav-item a:hover {
+	color: #444555;
+	text-decoration: underline #5049f1;
+}
+
+.active {
+	color: #444555;
+}
+
+ul.dropdown-menu {
+	border: 1px solid #9d9e9e;
+	border-radius: 0px;
+}
+
+a.dropdown-item {
+	color: #444555;
+}
+
+a.dropdown-item:focus {
+	background-color: #fff;
+}
+
+a.dropdown-item:hover {
+	background-color: #fff;
+	text-decoration: none;
+}
+
+.heading-bold {
+	color: #444555;
+	font-family: open-sans, sans-serif;
+	font-weight: 400;
+	font-size: 1.6em;
+	letter-spacing: 0.05rem;
+}
+
+.heading {
+	color: #444555;
+	font-family: open-sans, sans-serif;
+	font-weight: 300;
+	font-size: 1.6em;
+	letter-spacing: 0.03rem;
+}
+
+.content-body {
+	padding-top: 15px;
+}
+
+.content {
+	color: #444555;
+	font-family: ubuntu, sans-serif;
+	font-weight: 300;
+	font-size: 1.0em;
+	letter-spacing: 0.01rem;
+}
+
+/*.form-body {
+	background: #e5eefc;
+}*/
+
+hr.thick {
+	border: 3px solid #444555;
+}
+
+input[type="text"],
+textarea.form-control {
+	color: #878787;
+	background-color: #fff;
+	border: 1px solid #e5eefc;
+}
+
+p.company-info {
+	color: #444555;
+}
+
+.btn-purple {
+	color: #fff;
+	background: #5049f1;
+	padding: 10px 30px;
+}
+
+.footer {
+	color: #444555;
+	font-family: ubuntu, sans-serif;
+	font-weight: 300;
+	font-size: 1.0em;
+}
