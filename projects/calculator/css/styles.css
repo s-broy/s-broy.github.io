@@ -54,6 +54,7 @@ li {
 
 .numberButton {
 	width: 64px;
+	padding: 0;
 	margin: 0;
 	float: left;
 	background: #7f7f7f;
@@ -67,8 +68,8 @@ li {
 
 .numberButtonZero {
 	width: 64px;
+	padding: 0 0 0 22px;
 	margin: 0;
-	padding-left: 22px;
 	float: left;
 	background: #7f7f7f;
 	color: #fff;
@@ -81,6 +82,7 @@ li {
 
 .clearButton {
 	width: 64px;
+	padding: 0;
 	margin: 0;
 	float: left;
 	background: #666665;
@@ -94,6 +96,7 @@ li {
 
 .operatorButton {
 	width: 64px;
+	padding: 0;
 	margin: 0;
 	float: left;
 	background: #fd9e2b;
@@ -107,6 +110,7 @@ li {
 
 .offButton {
 	width: 64px;
+	padding: 0;
 	margin: 0;
 	float: left;
 	background: #464646;
