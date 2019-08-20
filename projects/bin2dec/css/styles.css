@@ -3,6 +3,16 @@
 	width: 360px;
 }
 
+.back-home {
+	width: 360px;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+	float: left;
+}
+
 h1,
 form {
 	text-align: center;
