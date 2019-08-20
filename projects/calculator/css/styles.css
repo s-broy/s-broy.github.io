@@ -33,12 +33,12 @@ li {
 }
 
 .calcbody {
-	width: 267px;
+	width: 256px;
 	margin: 0 auto;
 }
 
 #display-bar {
-	width: 267px;
+	width: 256px;
 	float: left;
 	background: #565755;
 	color: #fff;
