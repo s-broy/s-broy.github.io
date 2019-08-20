@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <ul>
+            <li>Adds, subtracts, multiplies and divides without using .eval()</li>
+            <li>Follows formula logic, observing order of operations</li>
+            <li>Uses .split(), .map() and .reduce() to parse expressions</li>
+            <li>Uses .match() to check against regular expressions to avoid repeated operators</li>
+            <li>Uses .length() to check string length</li>
+            <li>Uses .test() with regex to check if result is a decimal number; if true, uses toFixed(2) to round to the nearest hundredth</li>
+        </ul>
+        
+        <div class="calcbody">
+            <div id="display-bar"><p id="display">0</p></div>
+
+            <button id="allclear" class="clearButton">AC</button>
+            <button id="clearentry" class="clearButton">CE</button>
+            <button class="offButton">&nbsp;</button>
+            <button id="divide" class="operatorButton">÷</button>
+
+            <button id="seven" class="numberButton">7</button>
+            <button id="eight" class="numberButton">8</button>
+            <button id="nine" class="numberButton">9</button>
+            <button id="multiply" class="operatorButton">×</button>
+
+            <button id="four" class="numberButton">4</button>
+            <button id="five" class="numberButton">5</button>
+            <button id="six" class="numberButton">6</button>
+            <button id="subtract" class="operatorButton">-</button>
+
+            <button id="one" class="numberButton">1</button>
+            <button id="two" class="numberButton">2</button>
+            <button id="three" class="numberButton">3</button>
+            <button id="add" class="operatorButton">+</button>
+
+            <button id="zero" class="numberButtonZero">0</button>
+            <button class="offButton">&nbsp;</button>
+            <button class="offButton">&nbsp;</button>
+            <button id="equals" class="operatorButton">=</button>
+
+        </div>
+
+        <div>
+            <p class="back-home">
+                <a href="http://s-broy.github.io">Back</a>
+            </p>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="js/calculator.js"></script>
+</body>
+</html>

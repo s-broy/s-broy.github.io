@@ -1,0 +1,118 @@
+.container {
+	margin: 0 auto;
+	width: 360px;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.back-home {
+	width: 360px;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+	float: left;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: 500;
+}
+
+ul {
+	font-weight: 300;
+}
+
+li {
+	padding-bottom: 15px;
+	line-height: 1.2;
+}
+
+.calcbody {
+	width: 256px;
+	margin: 0 auto;
+}
+
+#display-bar {
+	width: 256px;
+	float: left;
+	background: #565755;
+	color: #fff;
+	font-size: 2.4em;
+	font-weight: 300;
+	text-align: right;
+}
+
+#display {
+	margin: 0;
+	padding: 0 6px 0 0;
+}
+
+.numberButton {
+	width: 64px;
+	margin: 0;
+	float: left;
+	background: #7f7f7f;
+	color: #fff;
+	cursor: pointer;
+	font-size: 2.4em;
+	font-weight: 300;
+	text-align: center;
+	border: 0;
+}
+
+.numberButtonZero {
+	width: 64px;
+	margin: 0;
+	padding-left: 22px;
+	float: left;
+	background: #7f7f7f;
+	color: #fff;
+	cursor: pointer;
+	font-size: 2.4em;
+	font-weight: 300;
+	text-align: left;
+	border: 0;
+}
+
+.clearButton {
+	width: 64px;
+	margin: 0;
+	float: left;
+	background: #666665;
+	color: #fff;
+	cursor: pointer;
+	font-size: 2.4em;
+	font-weight: 300;
+	text-align: center;
+	border: 0;
+}
+
+.operatorButton {
+	width: 64px;
+	margin: 0;
+	float: left;
+	background: #fd9e2b;
+	color: #fff;
+	cursor: pointer;
+	font-size: 2.4em;
+	font-weight: 300;
+	text-align: center;
+	border: 0;
+}
+
+.offButton {
+	width: 64px;
+	margin: 0;
+	float: left;
+	background: #464646;
+	color: #fff;
+	font-size: 2.4em;
+	font-weight: 300;
+	text-align: center;
+	border: 0;
+}
