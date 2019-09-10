@@ -5,7 +5,7 @@
 
 body {
 	font-family: sans-serif;
-	overflow-x: hidden;
+	
 	color: #313135;
 }
 
@@ -28,9 +28,10 @@ a {
 	text-decoration: none;
 	color: #025ebf;
 	transition: all 0.1s ease-out;
+	font-size: 1.1em;
 }
 
-a:hover {
+.link:hover {
 	opacity: 0.5;
 }
 
@@ -40,8 +41,22 @@ a:hover {
 	padding: 0 15px;
 }
 
-.content .contact-p {
+.contact-p {
+	font-size: 1.2em;
 	text-align: center;
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+.subheading {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+a.subheading-link {
+	color: #313135;
+	font-size: 1.4em;
+	font-weight: 600;
 }
 
 /* Home */
@@ -53,8 +68,7 @@ a:hover {
 }
 
 .home .home-content {
-	overflow-y: visible;
-	padding-top: 13%;
+	padding-top: 10%;
 	padding-left: 50px;
 	padding-right: 50px;
 	margin: 0 auto;
@@ -78,39 +92,76 @@ a:hover {
 .home p {
 	font-size: 1.4em;
 	text-align: center;
+	padding-bottom: 10px;
 }
 
-/* Section with white background */
+.role-link {
+	font-size: 1.0em;
+}
+
+.navlink {
+	font-size: 1.0em;
+}
+
+@media (min-width: 320px) {
+	.home .navlink {
+		font-size: 1.1em;
+	}
+}
+
+/* About and Contact Sections */
 
 .section-white {
 	display: block;
 	background: #fff;
 	width: 100%;
-}
-
-.section-white .content {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
 	margin: 0 auto;
 }
 
-.content p {
+.section-blue {
+	display: block;
+	background: #f1f4f6;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+}
+
+.content {
 	font-size: 1.2em;
 	text-align: left;
 	font-weight: 300;
 	line-height: 1.6;
 }
 
-.content p span {
+p span {
 	color: #025ebf;
 }
 
-@media (min-width: 950px) {
-	.section-white .content {
-		padding-left: 300px;
-		padding-right: 300px;
+@media (min-width: 320px) {
+	.section-white .content,
+	.section-blue .content {
+		width: 300px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.section-white .content,
+	.section-blue .content {
+		width: 350px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 1024px) {
+	.section-white .content,
+	.section-blue .content,
+	.section-white .contact-p {
+		width: 410px;
+		margin: 0 auto;
 	}
 }
 
@@ -129,23 +180,18 @@ a:hover {
 
 .projects {
 	display: block;
-	overflow: auto;
-	background: #f1f4f6;
+	background: #fff;
 	width: 100%;
-}
-
-.projects .content {
 	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-bottom: 50px;
 	margin: 0 auto;
 }
 
 .projects-column {
 	width: 100%;
 	text-align: left;
-	margin-right: 5%;
-	margin-bottom: 50px;
+	padding-bottom: 30px;
+	margin: 0;
 }
 
 .techtag {
@@ -159,15 +205,23 @@ a:hover {
 	border-radius: 2px;
 }
 
-@media (min-width: 420px) {
-	.projects .content {
+@media (min-width: 320px) {
+	.projects .projects-column {
 		width: 300px;
+		margin: 0 auto;
 	}
 }
 
-@media (min-width: 950px) {
-	.projects .content {
-		padding-left: 300px;
-		padding-right: 300px;
+@media (min-width: 768px) {
+	.projects .projects-column {
+		width: 350px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 1024px) {
+	.projects .projects-column {
+		width: 410px;
+		margin: 0 auto;
 	}
 }
