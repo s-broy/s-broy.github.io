@@ -21,12 +21,12 @@ body {
   .switch {
 	  position: absolute;
 	  border-radius: 50px;
-	cursor: pointer;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: #cccccc;
+	  cursor: pointer;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  background: #cccccc;
 	  transition: background 0.3s linear;
   }
   
@@ -109,6 +109,16 @@ body {
 	  display: flex;
 	  flex-wrap: wrap;
   }
+
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	  .container {
+		justify-content: center;  
+	  }
+}
   
   .box {
 	  padding: 50px 50px;
@@ -130,14 +140,14 @@ body {
   
   .headline {
 	  font-size: 25px;
-  }
+	}
   
   .subheader {
 	  display: flex;
 	  box-sizing: border-box;
 	  padding: 0 20px 0 20px;
 	  margin: 0;
-	  width: 100%;
+	  width: 60%;
 	  font-size: 13px;
   }
   
