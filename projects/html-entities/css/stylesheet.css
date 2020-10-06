@@ -204,7 +204,7 @@ textarea {
 	background: #27272c;
 	color: #ffffff;
 	outline: none;
-	border: 1px solid white;
+	border: 0;
 	font-weight: 700;
 	letter-spacing: 0.025em;
 	font-size: 21px;
