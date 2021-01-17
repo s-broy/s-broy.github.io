@@ -80,6 +80,7 @@ html, body {
 .span-min {
     width: 16px;
     height: 15px;
+    line-height: 14px;
 }
 
 .span-max {

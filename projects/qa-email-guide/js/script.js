@@ -48,7 +48,7 @@
         sticky.classList.add('sticky')
         minSticky.classList.remove('max-sticky');
         minSticky.classList.add('min-sticky');
-        closeX.innerHTML = "-";
+        closeX.innerHTML = "<span class=\"span-min\">&#8211;</span>";
       } else {
         sticky.classList.add('sticky-hidden');
         
