@@ -78,12 +78,14 @@ html, body {
 }
 
 .span-min {
+    font-family: Arial, sans-serif;
     width: 16px;
     height: 15px;
     line-height: 14px;
 }
 
 .span-max {
+    font-family: Arial, sans-serif;
     width: 16px;
     height: 15px;
     line-height: 16px;
