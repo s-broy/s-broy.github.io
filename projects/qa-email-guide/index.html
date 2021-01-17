@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>QA Email Guide</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="main-container">
+  
+		<div class="sticky">
+			<button id="sticky-id" class="min-sticky" type="button"><span class="span-min">&#8211;</span></button>
+			<div class="instructions">Instructions</div>
+			<div class="infobox-text">
+				Elements with an infobox are <span class="text-highlight">highlighted</span> when your cursor hovers over them.
+				<br><br>
+				Body text with an infobox is indicated by a <span class="text-underline">dotted underline</span>.
+				<br><br>
+				To open an infobox, click on the element or text. To close it, click on it again, click on another highlightable element or underlined text, or click anywhere outside of them.
+			</div>
+		</div>
+
+		<div class="sub-container">
+		  
+			<div class="sl-pt">
+				<div class="sl-pt-inner-border">
+					<div class="sl-pt-name">Campaign:</div>
+					<div class="sl-pt-content">This line in the Preview Link page states the campaign name</div>
+					<div class="sl-pt-name">Subject Line:</div>
+					<div class="sl-pt-content">This line has the subject line and the no-name subject line with visible code (AMPscript)</div>
+					<div class="sl-pt-name">Subject Line (alt):</div>
+					<div class="sl-pt-content">This line has an alternative subject line that should only be a no-name subject line (but this rule isn't always followed) with visible code (AMPscript)</div>
+					<div class="sl-pt-name">Preview Text:</div>
+					<div class="sl-pt-content">This line has the preview text, and if applicable, the alternative preview text. This also has visible code (AMPscript)</div>
+				</div>
+			</div>
+
+			<div class="preheader">
+				<div class="parent">
+				<div class="overlay-js">
+					<span class="preheader-text">View as a Web page</span>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>web view link</span>
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2"></span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					img
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">alt</span><span class="attr-1">="</span><span class="attr-2"></span><span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div>
+						<p class="content-js-p">A Web view link is not generated on a Preview Link (PL) page. The PL, instead, has %%view_email_url%% as an HREF/link.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="preheader-image-div">
+				<div class="parent">
+				<div class="overlay-js">
+					<img src="images/vehicle-model.png" class="preheader-image">&nbsp;<span class="vehicle-model-copy">VEHICLE MODEL</span>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>vehicle logo</span>
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</span><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2">vehicle--name</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					img
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">alt</span><span class="attr-1">="</span><span class="attr-2">Vehicle Name</span><span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div>
+						<p class="content-js-p">A vehicle logo is made up of the "bug" (the actual logo) and the name of the vehicle being showcased. Some vehicles say "Toyota" in place of the vehicle model name, such as the GR Supra in the OW campaign.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="headline">
+				<div class="parent">
+				<div class="overlay-js">
+					<p class="headline-copy">Hi, John! This is a headline.</p>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+						<span>headline</span>
+					</div>
+					<div class="element">
+						h1
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">style</span><span class="attr-1">="</span><span class="attr-2">font-family: ToyotaType, Helvetica, Arial, sans-serif;</span><span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div class="content-js-p">
+						A headline with two sentences or more takes a period at the end.
+						<br><br>
+						Inline CSS is added with the style attribute. "Style" will have various properties in addition to the one mentioned here, but we should just ensure the font-family includes the ToyotaType font.
+						<br><br>
+						Sometimes the main headline uses an &#60;h2> tag.
+					</div>
+					<div class="resources">
+						resources
+					</div>
+					<div>
+						<p class="content-js-p"><a class="resources-link" href="http://www.google.com" target="_blank">This is a link</a></p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="hero-module">
+				<div class="parent">
+				<div class="overlay-js">
+					<a href="#"><img  class="hero-image" src="images/hero-image.jpg" alt="Model Year Vehicle Name." title="Model Year Vehicle Name."></a>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					hero image
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</span><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2">my--vehicle--name</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					img
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">alt</span><span class="attr-1">="</span><span class="attr-2">Model Year Vehicle Name</span><span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div class="content-js-p">
+					An image that links out takes an ALT text. What the ALT text should be varies. There is a link to that document under Resources.
+					<br><br>
+					However, if the image is just of the vehicle, also called "jelly bean," the ALT text should be the vehicle's model year and model name; for example, 2021 Corolla.
+					</div>
+					<div class="resources">
+						resources
+					</div>
+					<div>
+						<p class="content-js-p"><a class="resources-link" href="http://www.google.com" target="_blank">This is a link</a></p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="hero-body-1">
+				<div class="parent">
+				<div class="hero-body-copy-1">
+					This is the hero body. It often includes a mention of the model year (MY) and vehicle name the email is featuring. On the Preview Link (PL) page, you will sometimes see code that is AMP script. This script is the logic that defines when to show different content. It's fine to ignore it in the PL, but it does help you know what content should be displayed in the (test) email.
+					<br><br>
+					Some campaigns such as Off-Lease swap out the "featured" vehicle in the hero image and module. This hero vehicle is defined in FT_V1. You will see FT_V1 in the PL's URL.
+					<br><br>
+					Lastly, you'll see superscripts like the one at the end of this sentence to indicate when copy needs disclaiming.<span class="text-underline"><sup>1</sup></span>
+				<div class="body-highlight">
+					<div class="parent">
+					<div class="overlay-js">
+						<div class="body-highlight-copy">
+						<sup>1</sup>
+						</div>
+					</div>
+					<div class="content-switch">
+						<div class="human-name">
+						<span>superscript</span>
+						</div>
+						<div class="element">
+						sup
+						</div>
+						<div class="attributes">
+						<span>rules</span>
+						</div>
+						<div>
+						<p class="content-js-p">
+							In Umbraco, disclaimer codes appear superscripted and within brackets; for example: <sup>[LEGALTERM]</sup>.
+							<br><br>
+							The disclaimer code is a disclaimer that was created in Umbraco with a specific name, usually labelled something related to what they are disclaiming.
+							<br><br>
+							Umbraco automatically replaces the disclaimer code in brackets with numbers in the preview link and in emails. Thus, Umbraco automatically numbers them based on the order they appear in. A disclaimer code that appears more than once in the email gets the same number as when it first appeared in the email.
+						</p>
+						</div>
+					</div>
+					</div>
+					</div>
+					They have various rules, so click on it to read more about it.
+				</div>
+				</div>
+			</div>
+			
+			<div class="cta-row">
+				<div class="parent">
+				<div class="overlay-js">
+					<div class="cta"><span class="cta-text">CTA</span></div>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>cta</span>
+					</div>
+					<div class="element">
+					td
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">style</span><span class="attr-1">="</span><span class="attr-2">background-color: #EB0A1E</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					td
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">style</span><span class="attr-1">="</span><span class="attr-2">border: 2px solid #EB0A1E</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					p
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">style</span><span class="attr-1">="</span><span class="attr-2">font-family: ToyotaType, Helvetica, Arial, sans-serif; font-size: 16px;</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</span><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2">content--description</span><span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div class="content-js-p">
+						A CTA is actually a &#60;td> inside a &#60;table>. The above tags are the ones QA checks.
+						<br><br>
+						The following is the entire tree with bolded tags being the ones QA checks:
+						<br><br>
+						<strong>td</strong> > table > tbody > tr > <strong>td</strong> > <strong>p</strong> > <strong>td</strong>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="key-line-row">
+				<div class="parent">
+				<div class="overlay-js">
+					<hr>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>key line</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="subheading">
+				<div class="parent">
+				<div class="overlay-js">
+					<p class="subheading-copy">This is a subheading.</p>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+						<span>subheading</span>
+					</div>
+					<div class="element">
+						h2
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div>
+						<p class="content-js-p">While a headine usually takes an &#60;h1> tag, a subheading may take an &#60;h2> tag or above, depending on how many headlines precede it. What differentiates a headline between a subheading is the font size -- titles with a smaller font size than that of the headine are considered subheadings.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="body-2">
+				<div class="parent">
+				<div>
+					<p class="body-2-copy">
+					These are the tags we use throughout all emails (note that superscripts do not have spaces after commas):
+					</p>
+					<div class="list-div">
+					<ul class="hero-list">
+						<li>&#60;strong&#62;<strong>Bold text</strong>&#60;/strong&#62;</li>
+						<li>&#60;em&#62;<em>Italicized text</em>&#60;/em&#62;</li>
+						<li>&#60;sup&#62;<sup>2,3</sup>&#60;/sup&#62;</li>
+					</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="key-line-row">
+				<div class="parent">
+				<div class="overlay-js">
+					<hr>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>key line</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="more-features-image-div">
+				<div class="parent">
+				<div class="overlay-js">
+					<img class="more-features-image" src="images/module-image.png">
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					module image
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</span><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2">content--description</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					img
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">alt</span><span class="attr-1">="</span><span class="attr-2">Image description</span><span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div>
+					<p class="content-js-p">
+						The module image and CTA have the same alias.
+						<br><br>
+						When tracking is turned on, the alias is no longer visible in the HTML. Instead, it's defined in the "tdesc" at the end of the image and CTA URLs.
+						<br><br>
+						This image's tdesc would look like this:
+						<br><br>
+						z4_features_module--name_img_8675
+						<br><br>
+						The parts of the alias is divided by a single underscore: zoneID_contentType_content--description_linkType_nodeID
+					</p>
+					</div>
+					<div class="resources">
+						resources
+					</div>
+					<div>
+						<p class="content-js-p"><a class="resources-link" href="http://www.google.com" target="_blank">This is a link</a></p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="more-features-headline">
+				<div class="parent">
+				<div>
+					Special Characters
+					<p class="more-features-body-copy">
+					Special characters should be written in HTML code. You can also use HTML entities. A complete list of characters can be found on this <a href="https://s-broy.github.io/projects/html-entities/" target="_blank" class="body-link">page</a>, but here are some examples:
+					</p>
+				</div>
+				</div>
+			</div>
+			
+			<div class="icon-col-1-div">
+				<div class="parent">
+				<div class="overlay-js">
+					<img src="images/em-dash.png" class="icon-image">
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>icon</span>
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</span><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2">link--text</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					img
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">alt</span><span class="attr-1">="</span><span class="attr-2">Link text</span><span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div class="content-js-p">
+						An icon is an image that looks like an icon.
+						<br><br>
+						The alias is usually the same as the text link or some variation of it.
+						<br><br>
+						The ALT text is usually the entire text that the icon is associated with. Icons still need to comply with ALT rules.
+					</div>
+					<div class="resources">
+						resources
+					</div>
+					<div class="content-js-p">
+						<a class="resources-link" href="http://www.google.com" target="_blank">This is a link</a>
+						<br>
+						<a class="resources-link" href="http://www.google.com" target="_blank">This is a link</a>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="icon-text-col-1-div">
+				<div class="parent">
+				<div class="overlay-js">
+					<span class="icon-text-span">Em dash</span>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>icon copy link</span>
+					</div>
+					<div class="element">
+					p
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">style</span><span class="attr-1">="</span><span class="attr-2">font-family: ToyotaType, Helvetica, sans-serif;</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</span><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2">link--text</span><span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div class="content-js-p">
+						An icon copy link has a font-family defined in the &#60;p> tag, along with other inline CSS styles. Remember that email clients cannot load fonts that the user doesn't already have installed. The user can see any "special" fonts in Web view only.
+						<br><br>
+						The alias is usually the same as the text link or some variation of it.              
+					</div>
+					<div class="resources">
+						resources
+					</div>
+					<div class="content-js-p">
+						<a class="resources-link" href="http://www.google.com" target="_blank">This is a link</a>
+						<br>
+						<a class="resources-link" href="http://www.google.com" target="_blank">This is a link</a>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="icon-col-2-div">
+				<div class="parent">
+				
+					<img src="images/en-dash.png" class="icon-image">
+				
+				</div>
+			</div>
+			
+			<div class="icon-text-col-2-div">
+				<div class="parent">
+				
+					<span class="icon-text-span">En dash</span>
+				
+				</div>
+			</div>
+			
+			<div class="icon-col-1-div">
+				<div class="parent">
+				
+					<img src="images/trademark.png" class="icon-image">
+				
+				</div>
+			</div>
+			
+			<div class="icon-text-col-1-div">
+				<div class="parent">
+				<div class="overlay-js">
+					<span class="icon-text-span">Trademark sign</span>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>icon copy link</span>
+					</div>
+					<div class="element">
+					p
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">style</span><span class="attr-1">="</span><span class="attr-2">font-family: ToyotaType, Helvetica, sans-serif;</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</span><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2">link--text</span><span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div class="content-js-p">
+						PLs will sometimes try to fit in all text into a pre-defined width. If the text is too long, the text will break letter by letter. A PL with this is fine and can be ignored.
+						<br><br>
+						However, it's always a good idea to ensure these specific words don't break any rules in the actual (test) emails. The rules are:<br><br>
+						1. Model year and vehicle name cannot be written across two lines
+						<br>
+						2. Hyphenated words cannot be written across two lines
+						<br>
+						3. A paragraph cannot have a single word that is four characters or more on a line by itself
+					</div>
+					<div class="resources">
+						resources
+					</div>
+					<div class="content-js-p">
+						<a class="resources-link" href="http://www.google.com" target="_blank">This is a link</a>
+						<br>
+						<a class="resources-link" href="http://www.google.com" target="_blank">This is a link</a>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="icon-col-2-div">
+				<div class="parent">
+				
+					<img src="images/registered-sign.png" class="icon-image">
+				
+				</div>
+			</div>
+			
+			<div class="icon-text-col-2-div">
+				<div class="parent">
+				
+					<span class="icon-text-span">Registered sign</span>
+				
+				</div>
+			</div>
+			
+			<div class="icon-col-1-div">
+				<div class="parent">
+				
+					<img src="images/copyright-sign.png" class="icon-image">
+				
+				</div>
+			</div>
+			
+			<div class="icon-text-col-1-div">
+				<div class="parent">
+				
+					<span class="icon-text-span">Copyright sign</span>
+				
+				</div>
+			</div>
+			
+			<div class="icon-col-2-div">
+				<div class="parent">
+				
+					<img src="images/ampersand.png" class="icon-image">
+				
+				</div>
+			</div>
+			
+			<div class="icon-text-col-2-div">
+				<div class="parent">
+				
+					<span class="icon-text-span">Ampersand</span>
+				
+				</div>
+			</div>
+			
+			<div class="cta-row-2">
+				<div class="parent">
+				<div class="overlay-js">
+					<div class="cta"><span class="cta-text">CTA</span></div>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>cta</span>
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</span><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2">cta--text</span><span class="attr-1">"</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="key-line-row">
+				<div class="parent">
+				<div class="overlay-js">
+					<hr>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>key line</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="simple-module-div">
+				<div class="parent">
+				<div class="overlay-js">
+					<a href="#"><img class="simple-module-image" src="images/module-image.png"></a>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>module image</span>
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</span><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2">content--description</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					img
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">alt</span><span class="attr-1">="</span><span class="attr-2"></span>Image description<span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div>
+						<p class="content-js-p">This is a module image.<br><br>
+						In Umbraco, most modules can get assigned an image and a CTA. An image has a link, an alias and an ALT text field. A CTA has an alias and a link field.
+						</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="body-3">
+				<div class="parent">
+				<div>
+					<p class="body-3-copy">
+		Single quotes use the straight apostrophe HTML code. Double quotes use the straight quotation mark code. None of these should ever be curly or smart. If they are, recommend writing them out using their respective HTML code or entity.
+					</p>
+				</div>
+				</div>
+			</div>
+			
+			<div class="key-line-row">
+				<div class="parent">
+				<div class="overlay-js">
+					<hr>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>key line</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="simple-module-div">
+				<div class="parent">
+				
+					<a><img class="simple-module-image" src="images/module-image.png"></a>
+				
+				</div>
+			</div>
+			
+			<div class="body-3">
+				<div class="parent">
+				<div>
+					<p class="body-3-copy">
+		Trademark, registered, and copyright signs never go in &#60;sup&#62;, because the proprietary font automatically superscripts them. The proprietary font isn't supported within email clients, only in Web view, so these signs appear larger within email clients.<br><br>
+		These signs also never go in &#60;strong&#62; tags, because they make them difficult to read, especially on mobile devices.
+					</p>
+				</div>
+				</div>
+			</div>
+			
+			<div class="key-line-row">
+				<div class="parent">
+				<div class="overlay-js">
+					<hr>
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>key line</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="simple-module-div">
+				<div class="parent">
+				
+					<a><img class="simple-module-image" src="images/module-image.png"></a>
+				
+				</div>
+			</div>
+			
+			<div class="hero-body-1">
+				<div class="parent">
+				<div>
+					<p class="hero-body-copy-1">
+					There are a few "hacks" we currently use to avoid a line breaking and starting a new line, but because these pieces of code essentially abuse how different browsers interpret CSS, we try to avoid using them. This is how the code snippets would look like in the "View page source" file (note that the Chrome's or Firefox's inspector do not display these code snippets):
+					</p>
+					<div class="list-div">
+					<ul class="hero-list-2">
+						<li>&#60;span style="white-space: nowrap"&#62;This line doesn't break&#60;/span&#62;</li>
+						<li>Land&#38;#160;Cruiser doesn't break</li>
+						<li>Superscript&#38;#8204;<sup>2</sup> doesn't break</li>
+					</ul>
+					<p class="hero-body-copy-1">
+					Also note when considering padding, width and height for mobile devices and apps display these slightly different based on their own interface. Also, adjusting a body copy or element's padding and/or line break on one mobile device might make that same body copy or element look strange on another device with a larger or smaller screen.
+					</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="lgp">
+				<div class="parent">
+				<div class="overlay-js">
+					<img src="images/sml.png" class="lgp-image">
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>social media slogan</span>
+					</div>
+					<div class="element">
+					img
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">alt</span><span class="attr-1">="</span><span class="attr-2">Social Media Slogan</span><span class="attr-1">"</span>
+					</div>
+					<div class="rules">
+						rules
+					</div>
+					<div>
+						<p class="content-js-p">If an image is only text or has text, the text should also go in the ALT attribute.
+						</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="social-media">
+				<div class="parent">
+				<div class="overlay-js">
+					<img src="images/facebook.png" class="social-media-image">
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>social media icon</span>
+					</div>
+					<div class="element">
+					a
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">target</span><span class="attr-1">="</span><span class="attr-2">_blank</span><span class="attr-1">"</span>
+					</div>
+					<div>
+					<span class="attr-0">alias</span><span class="attr-1">="</span><span class="attr-2">social--media</span><span class="attr-1">"</span>
+					</div>
+					<div class="element">
+					img
+					</div>
+					<div class="attributes">
+					<span>attributes</span>
+					</div>
+					<div>
+					<span class="attr-0">alt</span><span class="attr-1">="</span><span class="attr-2">Social Media</span><span class="attr-1">"</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="social-media">
+				<div class="parent">
+				
+					<img src="images/youtube.png" class="social-media-image">
+				
+				</div>
+			</div>
+			
+			<div class="social-media">
+				<div class="parent">
+				
+					<img src="images/twitter.png" class="social-media-image">
+				
+				</div>
+			</div>
+			
+			<div class="social-media">
+				<div class="parent">
+				
+					<img src="images/pinterest.png" class="social-media-image">
+				
+				</div>
+			</div>
+			
+			<div class="social-media">
+				<div class="parent">
+				
+					<img src="images/instagram.png" class="social-media-image">
+				
+				</div>
+			</div>
+			
+			<div class="disclaimer-footer">
+				<div class="parent">
+				<div>
+					<p class="universal-image-disclaimer">
+					Sed quis velit dictum, tempus magna a, aliquam mauris. Quisque suscipit augue nec mollis pulvinar.
+					</p>
+					<p class="disclaimer-copy">
+					1. This disclaimer number corresponds to the "1" in the hero body. Umbraco automatically adds the disclaimer copy down here in the disclaimer footer. Some modules have copy that is API-driven and a third party owns that copy. Thus, if that copy requires a disclaimer code, that third party provides the disclaimer code and the actual disclaimer text for it. We pull in that disclaimer text down here in the footer from them, so if this disclaimer text requires any changes or updates, that third party must perform those changes, because we can't, as we don't have access to their database.
+				<br><br>
+				2. Vivamus semper, erat id ultrices varius, nisi ante dapibus ante, eget porttitor dolor turpis vitae mi. Praesent blandit risus mauris, non eleifend ante lacinia dictum. Cras ultricies ipsum sit amet sodales accumsan.
+				<br><br>
+				3. Integer maximus pretium tortor quis tincidunt. Cras auctor nisl elit, vel gravida ligula tempus at. Pellentesque velit ligula, semper quis neque vel, mollis aliquet nunc. Donec sed lorem at dolor rhoncus tincidunt quis molestie felis. Morbi egestas tempus enim et aliquet.
+					</p>
+				</div>
+				</div>
+			</div>
+			
+			<div class="key-line-row-grey">
+				<div class="parent">
+				<div class="overlay-js">
+					<hr class="white-hr">
+				</div>
+				<div class="content-switch">
+					<div class="human-name">
+					<span>key line</span>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<div class="parent">
+				<div>
+					<p class="footer-copy">
+					<strong>Phasellus laoreet nisi vitae laoreet egestas. In hac habitasse platea dictumst. Curabitur tincidunt ullamcorper lectus sed lobortis.</strong>
+					<br><br>
+					Morbi nunc magna, convallis sed mattis nec, suscipit nec neque. In hac habitasse platea dictumst.
+					<br><br>
+					Donec tincidunt placerat ante, sed sagittis lorem dignissim ac. Praesent a urna diam. Sed commodo bibendum vestibulum. In cursus, ante vitae imperdiet ultricies, felis ante rhoncus eros, quis gravida libero lacus nec enim. Sed accumsan maximus neque, et viverra purus convallis eu.
+					<br><br>
+					Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+					<br><br>
+					<a href="#">Link 1</a> | <a href="#">Link 2</a> | <a href="#">Link 3</a> | <a href="#">Link 4</a> | <a href="#">Link 5</a>
+					<br><br>
+					&#169;2020 Nulla ac rutrum lacus
+					<br>
+					Attn: Aliquam et ligula commodo neque ornare sodales vitae in risus<br><br>&nbsp;
+					</p>
+				</div>
+				</div>
+			</div>
+		  
+		</div>
+	</div>
+
+    <script type = "text/javascript" src = "js/script.js" ></script>
+
+</body>
+</html>
