@@ -139,7 +139,10 @@ html, body {
 
 .tooltip-text {
     display: inline;
-    text-decoration: #000000 underline wavy;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    /*text-decoration: #000000 underline wavy;*/
+    /*-webkit-text-decoration: #000000 underline wavy;*/
     cursor: pointer;
 }
 
