@@ -17,7 +17,7 @@ html, body {
     top: 0.9%;
     left: 150%;
     width: 250px;
-    height: 291px;
+    height: 345px;
     padding: 6px 7px 10px 10px;
     margin: 0 -80px 0 0;
     background-color: #ffffff;
@@ -132,6 +132,60 @@ html, body {
     width: 440px;
     padding: 10px 0;
 }
+
+.tooltip {
+    position:relative;
+}
+
+.tooltip-text {
+    display: inline;
+    text-decoration: #000000 underline wavy;
+    cursor: pointer;
+}
+
+.tooltip.bottom:before {
+    content: attr(data-text);
+    position:absolute;
+    top: 100%;
+    transform:translateY(0);
+    left: 0;
+    margin: 0;
+    width:200px;
+    padding:10px;
+    border-radius:10px;
+    border: 1px #000000 solid;
+    background: #000000;
+    color: #ffffff;
+    text-align: left;
+    font-size: 10px;
+    display:none;
+}
+
+.tooltip:hover:before {
+    display:block;
+}
+
+.tooltip:after {
+    content: "";
+    position:absolute;
+    
+    /* position tooltip correctly */
+    left: 0;
+    margin-left: 5px;
+   
+    /* vertically center */
+    top: 80%;
+    transform:translateY(-55%);
+   
+    /* the arrow */
+    border: 5px solid #000000;
+    border-color: transparent transparent #000000 transparent;
+    
+    display:none;
+  }
+  .tooltip:hover:before, .tooltip:hover:after {
+    display:block;
+  }
 
 .body-link {
     color: #0000CD;
