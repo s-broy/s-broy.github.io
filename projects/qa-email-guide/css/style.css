@@ -133,6 +133,14 @@ html, body {
     padding: 10px 0;
 }
 
+.wavy-underline {
+    display: inline;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    /*text-decoration: #000000 underline wavy;*/
+    /*-webkit-text-decoration: #000000 underline wavy;*/
+}
+
 .tooltip {
     position:relative;
 }
