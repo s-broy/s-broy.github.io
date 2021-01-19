@@ -28,11 +28,11 @@ html, body {
 }
 
 .sticky-hidden {
-    height: 10px;
+    height: 6px;
 }
 
 .instructions {
-    padding: 3px 0 16px 0;
+    padding: 4px 0 16px 0;
     font-weight: 600;
     display: inline-block;
     width: 247px;
