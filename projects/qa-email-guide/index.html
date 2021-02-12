@@ -32,11 +32,11 @@
 					<div class="sl-pt-name">Campaign:</div>
 					<div class="sl-pt-content">This line in the <span class="tooltip bottom" data-text="Test emails are checked against a preview link page (a &#34;PL&#34;), in the QA instance (not dev instance)."><p class="tooltip-text">Preview Link</p></span> page states the campaign name</div>
 					<div class="sl-pt-name">Subject Line:</div>
-					<div class="sl-pt-content">This line has the subject line and the no-name subject line with visible code (AMPscript)</div>
+					<div class="sl-pt-content">This line has the subject line (SL) and the no-name SL with visible code (AMPscript). SLs are written in <a href="https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case" class="body-link" target="_blank">title case.</a></div>
 					<div class="sl-pt-name">Subject Line (alt):</div>
 					<div class="sl-pt-content">This line has an alternative subject line that should only be a no-name subject line (but this rule isn't always followed) with visible code (AMPscript)</div>
 					<div class="sl-pt-name">Preview Text:</div>
-					<div class="sl-pt-content">This line has the preview text, and if applicable, the alternative preview text. This also has visible code (AMPscript)</div>
+					<div class="sl-pt-content">This line has the preview text (PT), and if applicable, the alternative PT. This also has visible code (AMPscript). PT takes punctuation and is written in <a href="https://apastyle.apa.org/style-grammar-guidelines/capitalization/sentence-case" class="body-link" target="_blank">sentence case</a>.</div>
 				</div>
 			</div>
 
@@ -886,15 +886,17 @@
 				<div class="parent">
 				<div>
 					<p class="universal-image-disclaimer">
-					Sed quis velit dictum, tempus magna a, aliquam mauris. Quisque suscipit augue nec mollis pulvinar.
+						The disclaimer footer goes here. The first line is usually the universal image disclaimer, <a href="" class="body-link" target="_blank">if applicable</a>.
 					</p>
 					<p class="disclaimer-copy">
-					1. This disclaimer number corresponds to the "1" in the hero body. Umbraco automatically adds the disclaimer copy down here in the disclaimer footer. Some modules have copy that is API-driven and a third party owns that copy. Thus, if that copy requires a disclaimer code, that third party provides the disclaimer code and the actual disclaimer text for it. We pull in that disclaimer text down here in the footer from them, so if this disclaimer text requires any changes or updates, that third party must perform those changes, because we can't, as we don't have access to their database.
+					1. Sometimes disclaimer copy has links. Links that are in blue text like "if applicable" above in the disclaimer footer are not allowed. All text, including links, should match the rest of the disclaimer text in font size and style.
 				<br><br>
-				2. Vivamus semper, erat id ultrices varius, nisi ante dapibus ante, eget porttitor dolor turpis vitae mi. Praesent blandit risus mauris, non eleifend ante lacinia dictum. Cras ultricies ipsum sit amet sodales accumsan.
+				2. This disclaimer number corresponds to superscript "2" in the second module above. In Umbraco, superscript numbers appear as disclaimer codes in block letters and without spaces <sup>[LIKETHIS]</sup>. Umbraco automatically adds the disclaimer copy down here.
 				<br><br>
-				3. Integer maximus pretium tortor quis tincidunt. Cras auctor nisl elit, vel gravida ligula tempus at. Pellentesque velit ligula, semper quis neque vel, mollis aliquet nunc. Donec sed lorem at dolor rhoncus tincidunt quis molestie felis. Morbi egestas tempus enim et aliquet.
+				3.  Some modules have copy that is API-driven and a third party owns that copy. Thus, if any changes to API-driven disclaimers are necessary, only the third party can make those changes. We can still log tickets for API-driven disclaimers, but they will usually be stet. But at least the legal team can be notified of any issues in case the client brings them up. If a disclaimer is not in Umbraco, this is a good indication that it's API-driven.
 					</p>
+					<br><br>
+					4. Lastly, we also have "hybrid disclaimers." This occurs when we pull in the API-driven disclaimer but concatenate extra information to it. The third party is the only entity that can still edit the API-driven disclaimer, but we can edit the information we're adding. Usually the API-driven disclaimer and information we're adding to it will be concatenated in the "back-end," so you won't see it in Umbraco.
 				</div>
 				</div>
 			</div>
@@ -916,13 +918,13 @@
 				<div class="parent">
 				<div>
 					<p class="footer-copy">
-					<strong>Phasellus laoreet nisi vitae laoreet egestas. In hac habitasse platea dictumst. Curabitur tincidunt ullamcorper lectus sed lobortis.</strong>
+					<strong>This is the first line of the Toyota footer and is usually bold, but it actually depends on what Toyota footer is being used.</strong>
 					<br><br>
-					Morbi nunc magna, convallis sed mattis nec, suscipit nec neque. In hac habitasse platea dictumst.
+					The two main footers are the commercial footer and the transactional footer.
 					<br><br>
-					Donec tincidunt placerat ante, sed sagittis lorem dignissim ac. Praesent a urna diam. Sed commodo bibendum vestibulum. In cursus, ante vitae imperdiet ultricies, felis ante rhoncus eros, quis gravida libero lacus nec enim. Sed accumsan maximus neque, et viverra purus convallis eu.
+					Commercial footers have two unsubscribe links. One is in one of the paragraphs and the second is in the list of links below.
 					<br><br>
-					Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+					Commercial footers have the row of links like you see below. Transactional footers don't have that row of links.
 					<br><br>
 					<a href="#">Link 1</a> | <a href="#">Link 2</a> | <a href="#">Link 3</a> | <a href="#">Link 4</a> | <a href="#">Link 5</a>
 					<br><br>
