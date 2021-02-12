@@ -32,11 +32,11 @@
 					<div class="sl-pt-name">Campaign:</div>
 					<div class="sl-pt-content">This line in the <span class="tooltip bottom" data-text="Test emails are checked against a preview link page (a &#34;PL&#34;), in the QA instance (not dev instance)."><p class="tooltip-text">Preview Link</p></span> page states the campaign name</div>
 					<div class="sl-pt-name">Subject Line:</div>
-					<div class="sl-pt-content">This line has the subject line (SL) and the no-name SL with visible code (AMPscript). SLs are written in title case.</div>
+					<div class="sl-pt-content">This line indicates what the subject line (SL) and the no-name SL should be with visible code (<span class="tooltip bottom" data-text="A scripting language that you can add within emails, HTML pages, and landing pages. The Marketing Cloud application (SalesForce Marketing Cloud) handles all AMPscript calls at the time the email is sent. This is why you see the code in PLs, but not in test emails."><p class="tooltip-text">AMPscript</p></span>). SLs are written in title case.</div>
 					<div class="sl-pt-name">Subject Line (alt):</div>
-					<div class="sl-pt-content">This line has an alternative subject line that should only be a no-name subject line (but this rule isn't always followed) with visible code (AMPscript).</div>
+					<div class="sl-pt-content">This line indicates what the alternative subject line should be. It's usually the no-name version of the regular SL (but this rule isn't always followed) with AMPscript.</div>
 					<div class="sl-pt-name">Preview Text:</div>
-					<div class="sl-pt-content">This line has the preview text (PT), and if applicable, the alternative PT. This also has visible code (AMPscript). PT takes punctuation and is written in sentence case.</div>
+					<div class="sl-pt-content">This line indicates what the <span class="tooltip bottom" data-text="One or two-sentence copy pulled from the body of the email that is usually displayed underneath the sender name or next to the subject line in a different color. It can usually be seen in the user's inbox folder."><p class="tooltip-text">preview text</p></span> (PT) and, if applicable, what the the alternative PT should be. This also may display AMPscript. PT takes punctuation and is written in sentence case.</div>
 				</div>
 			</div>
 
@@ -746,7 +746,7 @@
 				<div class="parent">
 				<div>
 					<p class="body-3-copy">
-		Trademark, registered, and copyright signs never go in &#60;sup&#62;, because the proprietary font automatically superscripts them. The proprietary font isn't supported within email clients, only in Web view, so these signs appear larger within email clients.<br><br>
+		Trademark, registered, and copyright signs never go in &#60;sup&#62;, because the ToyotaType font automatically superscripts them. This proprietary font isn't supported within email clients, only in Web view, so these signs appear larger within email clients.<br><br>
 		These signs also never go in &#60;strong&#62; tags, because they make them difficult to read, especially on mobile devices.
 					</p>
 				</div>
@@ -770,9 +770,9 @@
 			<div class="hero-body-1">
 				<div class="parent">
 				<div>
-					<p class="hero-body-copy-1">
-					There are a few "hacks" we currently use to avoid a line breaking and starting a new line, but because these pieces of code essentially abuse how different browsers interpret CSS, we try to avoid using them. This is how the code snippets would look like in the "View page source" file (note that the Chrome's or Firefox's inspector do not display these code snippets):
-					</p>
+					<div class="hero-body-copy-1">
+					There are a few "hacks" we currently use to avoid a line breaking and starting a new line, but because these pieces of code essentially abuse how different browsers interpret <span class="tooltip bottom" data-text="Cascading Style Sheets is a style sheet language that stylizes elements, such as links, images, and text. Emails use inline styles, which means the styles are defined directly in the HTML, as opposed to having all the styles in a separate file."><p class="tooltip-text">CSS</p></span>, we try to avoid using them. This is how the code snippets would look like in the "View page source" file (note that the Chrome's or Firefox's inspector do not display these code snippets):
+					</div>
 					<div class="list-div">
 					<ul class="hero-list-2">
 						<li>&#60;span style="white-space: nowrap"&#62;This line doesn't break&#60;/span&#62;</li>
@@ -885,19 +885,18 @@
 			<div class="disclaimer-footer">
 				<div class="parent">
 				<div>
-					<p class="universal-image-disclaimer">
+					<div class="universal-image-disclaimer">
 						The disclaimer footer goes here. The first line is usually the universal image disclaimer, <a href="" class="body-link" target="_blank">if applicable</a>.
-					</p>
-					<p class="disclaimer-copy">
+					</div>
+					<div class="disclaimer-copy">
 					1. Sometimes disclaimer copy has links. Links that are in blue text like "if applicable" above in the disclaimer footer are not allowed. All text, including links, should match the rest of the disclaimer text in font size and style.
 				<br><br>
-				2. This disclaimer number corresponds to superscript "2" in the second module above. In Umbraco, superscript numbers appear as disclaimer codes in block letters and without spaces <sup>[LIKETHIS]</sup>. Umbraco automatically adds the disclaimer copy down here.
+				2. This disclaimer number corresponds to superscript "2" in the second module above. In <span class="tooltip bottom" data-text="An open-source content management system platform for publishing content. The PLs are built using modules. The modules come from Umbraco. The modules are created by bringing together code from partials. Partials are basically big blocks of code. Different modules can have (or call/pull in) different partials. If you log into Umbraco, you can user the site to edit image alt texts, link aliases, copy, headlines, images and more."><p class="tooltip-text">Umbraco</p></span>, superscript numbers appear as disclaimer codes in block letters and without spaces <sup>[LIKETHIS]</sup>. Umbraco automatically adds the disclaimer copy down here.
 				<br><br>
-				3.  Some modules have copy that is API-driven and a third party owns that copy. Thus, if any changes to API-driven disclaimers are necessary, only the third party can make those changes. We can still log tickets for API-driven disclaimers, but they will usually be stet. But at least the legal team can be notified of any issues in case the client brings them up. If a disclaimer is not in Umbraco, this is a good indication that it's API-driven.
-					
-					<br><br>
-					4. Lastly, we also have "hybrid disclaimers." This occurs when we pull in the API-driven disclaimer but concatenate extra information to it. The third party is the only entity that can still edit the API-driven disclaimer, but we can edit the information we're adding. Usually the API-driven disclaimer and information we're adding to it will be concatenated in the "back-end," so you won't see it in Umbraco.
-					</p>
+				3.  Some modules have copy that is <span class="tooltip bottom" data-text="An application programming interface is a kind of middle-man between two or more applications or softwares. The middle-man gets information from one application and then it defines what information the other application can pull in (call or request) and how it can do it."><p class="tooltip-text">API-driven</p></span> and a third party owns that copy. Similarly, some disclaimers are API-driven. If any changes to API-driven content (body copy or disclaimers) are necessary, only the third party can make those changes. We can still log tickets if we encounter issues within them, but they will usually be stet. But at least the legal team can be notified of any issues in case the client brings them up. If a specific disclaimer or body copy is not in Umbraco, this is a good indication that it's API-driven.
+				<br><br>
+				4. Lastly, we also have "hybrid disclaimers." This occurs when we pull in the API-driven disclaimer but concatenate extra information to it. The third party is the only entity that can still edit the API-driven disclaimer, but we can edit the information we're adding. Usually the API-driven disclaimer and information we're adding to it will be concatenated in the "back-end," so you won't see it in Umbraco.
+				</div>
 				</div>
 				</div>
 			</div>
