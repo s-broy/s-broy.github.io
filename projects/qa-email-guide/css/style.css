@@ -81,14 +81,14 @@ html, body {
     font-family: Arial, sans-serif;
     width: 16px;
     height: 15px;
-    line-height: 14px;
+    line-height: 0.99rem;
 }
 
 .span-max {
     font-family: Arial, sans-serif;
     width: 16px;
     height: 15px;
-    line-height: 16px;
+    line-height: 0.9rem;
 }
 
 .infobox-text {
