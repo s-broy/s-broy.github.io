@@ -10,7 +10,7 @@ This extension pulls in &#60;img> and &#60;a> tags (positioned anywhere in the m
 
 ### Installing
 
-* Download the zip file here: 
+* Download the zip file <a href="https://github.com/s-broy/s-broy.github.io/raw/master/projects/attribute-viewer/attribute-viewer.zip" target="_blank">here</a> (right-click and Save As)
 * Extract all to a folder where you keep Chrome extensions
 * On Chrome's address bar, type chrome://extensions
 * On the top right, click the developer mode toggle to turn ito n
