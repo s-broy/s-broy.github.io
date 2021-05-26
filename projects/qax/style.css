@@ -1,0 +1,78 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  background-color: #212124;
+  color: #ffffff;
+  font-size: 14px;
+  background-image: url("assets/starfield01a.jpg");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 35px 0 35px 0;
+  margin: 0;
+}
+
+.title {
+  letter-spacing: 1px;
+  padding: 0 0 25px 0;
+  font-size: 18px;
+}
+
+form {
+  width: 106px;
+  padding: 0 0 0 0;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  vertical-align: -12px;
+  padding: 2px;
+  margin: 0 0 10px 0;
+  border: 1px solid #ffffff;
+  background-clip: content-box;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked {
+  background-color: #ffffff;
+}
+
+input[type="radio"]:focus {
+  outline: none;
+}
+
+input[type="button"] {
+  width: 126px;
+  height: 46px;
+  padding: 4px;
+  margin: 23px 0 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: transparent;
+  outline: none;
+  font-size: 14px;
+}
