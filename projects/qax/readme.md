@@ -18,7 +18,7 @@ If you have a previous version installed, please remove it completely before ins
 
 ### Installing
 
-1. Download the zip file here
+1. Download the zip file <a href="https://github.com/s-broy/s-broy.github.io/raw/master/projects/qax/qax.zip" target="_blank">here</a>
 2. Extract all to a folder where you keep Chrome extensions
 3. On Chrome's address bar, type chrome://extensions
 4. On the top right, click the developer mode toggle to turn it on
