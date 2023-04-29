@@ -89,6 +89,8 @@ If you encounter any issue with the extension, please feel free to log a ticket 
 
 ## Version History
 
+* 3.1
+    * Added Manifest V3 support
 * 3.0
     * Added Tracking (L) and NBSP checks
     * Added "Open All Links" feature
